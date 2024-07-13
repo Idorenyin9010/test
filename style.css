@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    width: 500px;
+    margin: auto;
+}
+.chat {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #727271;
+}
+.chat-header {
+    display: flex;
+    cursor: pointer;
+}
+.profile {
+    width: 100%;
+    background: #2c2b2b;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0px 10px;
+    position: relative;
+}
+.profile .img {
+    width: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 32px;
+}
+.profile h2 {
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: bottom;
+    color: #fff;
+    font-size: 20px;
+}
+.right .icons {
+    display: inline-block;
+    width: 25px;
+    margin-left: 10px;
+}
+.profile .left {
+    flex: 1;
+}
+.chat-box {
+    background-attachment: fixed;
+    padding-left: 25px;
+    overflow-y: scroll;
+    flex: 1;
+}
+.chat-a {
+    display: flex;
+}
+.chat-a .sp {
+    flex: 1;
+}
+.chat-b {
+    display: flex;
+}
+.chat-b .sp {
+    flex: 1;
+}
+.chat-box .mess {
+    max-width: 300px;
+    background: #434141;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+.chat-box .mess p {
+    word-break: break-all;
+    font-size: 11px;
+}
+.chat-box .mess-a {
+    background: rgb(53, 81, 12);
+}
+.chat-box .check {
+    float: right;
+}
+.chat-box .check img {
+    width: 12px;
+}
+.chat-box .check span {
+    color: #888;
+    font-size: 12px;
+    font-weight: 700px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: #555;
+ 
+}
+::-webkit-scrollbar-thumb {
+    background: #555;
+  
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1b1b1b; 
+  }
+
+.chat-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.chat-footer textarea {
+    display: block;
+    flex: 1;
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 19px;
+    padding-left: 50px;
+    padding-right: 100px;
+    background: #2c2b2b;
+    resize: none;
+}
+.chat-footer .mic {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+.chat-footer .emoji {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.chat-footer .icon {
+    position: absolute;
+    right: 90px;
+    top: 20px;
+}
+.chat-footer .icon img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}

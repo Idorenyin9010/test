@@ -1,0 +1,355 @@
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+        <!--Preloader-->
+        <div id="preloader" style="display: none;">
+            <div id="pre-status" style="display: none;">
+                <div class="preload-placeholder"></div>
+            </div>
+        </div>
+        <!--Navigation-->
+        <header id="menu">
+            <div class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Idy</a>
+                        </div>
+                        <!--Collect the nav links, forms, and other content for toggling-->
+                        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a class="scroll" href="/">Home</a>
+                                </li>
+                                <li>
+                                    <a class="scroll" href="/about">About</a>
+                                </li>
+                                <li>
+                                    <a class="scroll" href="/portfolio">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a class="scroll" href="/contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </div>
+            </div>
+        </header>
+        <!--Slider-Start-->
+        <section id="slider">
+            <div id="home-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active" style="background-image: url(./images/1\ dark-study.jpg)">
+                        <div class="carousel-caption container">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12 col-xs-12">
+                                    <h1>Hi, meet Idorenyin</h1>
+                                    <p>Welcome to my page.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(./images/2\ helmet-laptop.jpg)">
+                        <div class="carousel-caption container">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12 col-xs-12">
+                                    <h1>Hi, meet Idorenyin</h1>
+                                    <p>
+                                        A Civil Engineer by profession, and FrontEnd Web Developer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="background-image: url(./images/3\ vs\ bckground.jpg)">
+                        <div class="carousel-caption container">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-12 col-xs-12">
+                                    <h1>Hi, meet Idorenyin</h1>
+                                    <p>A Civil Engineer by profession, and FrontEnd Web Developer.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="home-carousel-left" href="#home-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                    <a class="home-carousel-right" href="#home-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <!--/#home-carousel-->
+        </section>
+        <!--About-Section-Start-->
+        <section class="container mt-4 pt-4 section" id="about">
+            <h2 class="text-center">ABOUT <span>ME</span></h2>
+            <div class="line"></div>
+            <div class="row mt-4">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="./images/aboutme/DSC_1485~4.jpeg" class="image_about">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>I am dedicated and results-oriented, a site supervisor with proven track record in managing projects from inception to completion. A good team player as I work with skilled and unskilled manpower to ensure the successful execution of any project within budget and time frame.<br> Away from my profession, I am also passionate about web development hence my choice of tech skill, dedication and pursuit to know more. A certified frontend web developer with some years of experience. I derive joy in coding because it keeps me thinking outside the box and thereby make me always up and doing.</p>
+                    <div class="row mt-3">
+                        <h4>Transferable Skills;</h4>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Interpersonal Relationship</li>
+                                <li>AutoCAD</li>
+                                <li>HTML, CSS &amp; Boostrap</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Good Team Player</li>
+                                <li>Digital Marketing</li>
+                                <li>Leadership</li>
+                            </ul>
+                        </div>
+                        <div class="row mt-3">
+                            <h4>Hobbies;</h4>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Reading</li>
+                                <li>Cooking</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Coding</li>
+                                <li>Cleaning</li>
+                            </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </div></section>
+       <!--Portfolio Section-->
+<section id="portfolio">
+    <div class="background-image">
+    </div>
+    <div class="container mt-3">
+        <div class="title"><h2 class="text-center">PORTFOLIO</h2>
+        </div>
+        <div class="line port"></div>
+        <div class="row">
+            <div class="col-md-6 mt-4">
+                <div class="card">
+                    <img class="card-img-top" src="./images/HTML forms.PNG" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">HTML Form</h4>
+                        <p class="card-text">My first HTML forms built with HTML and little CSS. Hertechtrail cohort8 first assignment.</p>
+                        <div class="text-center">
+                            <a href="https://mellifluous-yeot-10098c.netlify.app/" target="_blank" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-4">
+                <div class="card portfolioContent">
+                    <img class="card-img-top" src="./images/HTML tables.PNG" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">HTML Table</h4>
+                        <p class="card-text">My first HTML table built with HTML and little CSS. Hertechtrail cohort8 first assignment.</p>
+                        <div class="text-center">
+                            <a href="https://endearing-hummingbird-b57175.netlify.app/" class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/sign up page on a small screen.PNG" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Signup Form</h4>
+                            <p class="card-text">HerTechTrailAcademy 15 Days Content Challenge (Day 1 to 5) responsiveness on a smaller screen.</p>
+                            <div class="text-center">
+                                <a href="https://idorenyin-signuppage-b40438.netlify.app/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="./images/sign up page on a large screen.PNG" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Signup Form</h4>
+                            <p class="card-text">HerTechTrailAcademy 15 Days Content Challenge (Day 1 to 5) responsiveness on a larger screen.</p>
+                            <div class="text-center">
+                                <a href="https://idorenyin-signuppage-b40438.netlify.app/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            <div class="row">
+                <div class="col-md-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./images/max-width 475.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">404 Error Page</h4>
+                            <p class="card-text">HerTechTrailAcademy 15 Days Content Challenge (Day 6 to 10) responsiveness on a small screen.</p>
+                            <div class="text-center">
+                                <a href="https://serene-idyerrorpage-992ce71.netlify.app/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="./images/max-width 700px.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">404 Error Page</h4>
+                            <p class="card-text">HerTechTrailAcademy 15 Days Content Challenge (Day 6 to 10) responsiveness on a medium screen.</p>
+                            <div class="text-center">
+                                <a href="https://serene-idyerrorpage-992ce71.netlify.app/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="./images/max-width 1000px.png" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">404 Error Page</h4>
+                            <p class="card-text">HerTechTrailAcademy 15 Days Content Challenge (Day 6 to 10) responsiveness on a small screen.</p>
+                            <div class="text-center">
+                                <a href="https://serene-idyerrorpage-992ce71.netlify.app/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+    </div></div></div></section>
+        <!--Contact-Section-Start-->
+<section id="contact">
+    <div class="container">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="heading">
+          <h2>CONTACT <span>ME</span></h2>
+          <div class="line"></div>
+          <p><span><strong>F</strong></span>or more information you can contact me through my contact info or my social media handels you can also leave a message and it will be attened to immediately.</p>
+        </div>
+      </div>
+      <div class="text-center">
+        <div class="col-md-6 col-sm-6 contact-sec-1">
+          <h4>CONTACT IN<span>FO</span></h4>
+          <ul class="contact-form">
+            <li><i class="fa fa-map-marker"></i>
+              <h6><strong>Address:</strong> Port Harcourt, Rivers State </h6>
+            </li>
+            <li><i class="fa fa-envelope"></i>
+              <h6><strong>Email Me:</strong> <a href="#">idorenyinmkpandiok@gmail.com</a></h6>
+            </li>
+            <li><i class="fa fa-phone"></i>
+              <h6><strong>Phone:</strong> +234 816-924-9010 </h6>
+            </li>
+            <li><i class="fa fa-wechat"></i>
+              <h6><strong>Website:</strong> <a href="#">www...com</a> </h6>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <form id="main-contact-form" name="contact-form" method="post" action="#">
+            <div class="row  wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+            </div>
+            <div class="form-group">
+              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+            </div>
+            <a class="btn-send col-md-12 col-sm-12 col-xs-12" href="#">Send Now</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+        <footer id="footer-down">
+            <h2>Follow Me On</h2>
+            <ul class="social-icon">
+                <li class="facebook hvr-pulse">
+                    <a href="https://www.facebook.com/idorenyin.mkpandiok.3"><i class="fa fa-facebook-f"></i></a>
+                </li>
+                <li class="twitter hvr-pulse">
+                    <a href="https://x.com/MkpandiokM?=TMma2u8UUiguy0dmknMrag&amp;s=09"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="linkedin hvr-pulse">
+                    <a href="https://linkedin.com/in/idorenyin-mkpandiok-b989a322a"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li class="github hvr-pulse">
+                    <a href="https://github.com/idorenyin9010"><i class="fa fa-github"></i></a>
+                </li>
+            </ul>
+            <p>
+                © Cohort8 Capstone project by
+                <a href="#" target="_blank">Idorenyin</a>
+            </p>
+        </footer>
+        <!--Jquery-->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!--Boostrap-Jquery-->
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <!--Preetyphoto-Jquery-->
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <!--NiceScroll-Jquery-->
+        <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+        <!--Isotopes-->
+        <script type="text/javascript" src="js/jquery.isotope.js"></script>
+        <!--Wow-Jquery-->
+        <script type="text/javascript" src="js/wow.js"></script>
+        <!--Count-Jquey-->
+        <script type="text/javascript" src="js/jquery.countTo.js"></script>
+        <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+        <!--Owl-Crousels-Jqury-->
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <!--Main-Scripts-->
+        <script type="text/javascript" src="js/script.js"></script><div id="ascrail2000" class="nicescroll-rails" style="width: 5px; z-index: 999999999; cursor: default; position: fixed; top: 0px; height: 100%; right: 0px; opacity: 0;"><div style="position: relative; top: 0px; float: right; width: 5px; height: 45px; background-color: rgb(51, 51, 51); border: 0px; background-clip: padding-box; border-radius: 0px;"></div></div>
+    
+
+
+
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->
+</body>
+
+
+
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+    <div class="container">
+        <div class="leftside"></div>
+        <div class="rightSide"></div>
+        <div class="header"></div>
+
+
+        <div class="chatbox">
+            <div class="message-friend">
+                <p> Let me know when you are ready for the test</p>
+            </div>
+            <div class="message-mine">
+                <p>Okay</p>
+            </div>
+        </div>
+    </div>
